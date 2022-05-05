@@ -128,7 +128,7 @@ document.getElementById("book-form").addEventListener("submit", (e) => {
         // Add Book To Store
         Store.addBook(book);
         
-        UI.showAlert('Wohohooo! Book Added Successfully!', 'success')
+        UI.showAlert('Wohooo! Book Added Successfully!', 'success')
 
         // Clear fields
         UI.clearFields();
